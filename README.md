@@ -31,13 +31,13 @@ Incorrect wiring of flip-flop pins (especially power and control pins) caused ou
 LEDs initially did not blink due to high clock frequency from improper R–C selection in the 555 timer.
 Debugging was required to ensure proper connections of preset/clear pins and correct logic levels for stable operation.
 
-📈##Results
+📈Results
 
 The circuit successfully generates divided frequencies f, f/2, f/3, and f/4.
 The difference in frequency is clearly visible through varying LED blinking rates.
 The output can also be verified using an oscilloscope for accurate frequency measurement.
 
-🚀__Future Improvements__
+##🚀Future Improvements
 
 Replace 555 timer with a crystal oscillator for improved accuracy and stability
 Implement synchronous counters to reduce propagation delay
