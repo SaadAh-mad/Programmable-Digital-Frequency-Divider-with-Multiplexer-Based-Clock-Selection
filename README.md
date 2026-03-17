@@ -3,20 +3,20 @@ Digital Frequency Divider with MUX-Based Clock Selection : Designed a clock divi
 
 🔧Components Used
 
-NE555 Timer IC
-IC 7476 (JK Flip-Flop)
-2× D Flip-Flop ICs ( 74LS74)
-IC 7408 (AND Gate)
-IC 7432 (OR Gate)
-IC 74153 (4×1 Multiplexer)
-2× SPDT switches
-Capacitors: 220 µF, 0.1 µF, 0.01 µF
+NE555 Timer IC,
+IC 7476 (JK Flip-Flop),
+2× D Flip-Flop ICs ( 74LS74),
+IC 7408 (AND Gate),
+IC 7432 (OR Gate),
+IC 74153 (4×1 Multiplexer),
+2× SPDT switches,
+Capacitors: 220 µF, 0.1 µF, 0.01 µF,
 Resistors:
-2× 1 kΩ
-2× 220 Ω
-3× 330 Ω
-LEDs
-Breadboard and connecting wires
+2× 1 kΩ,
+2× 220 Ω,
+3× 330 Ω,
+LEDs,
+Breadboard and connecting wires,
 Arduino UNO (used as 5 V power supply)
 
 ⚙️Working
@@ -37,7 +37,7 @@ The circuit successfully generates divided frequencies f, f/2, f/3, and f/4.
 The difference in frequency is clearly visible through varying LED blinking rates.
 The output can also be verified using an oscilloscope for accurate frequency measurement.
 
-##🚀Future Improvements
+🚀Future Improvements
 
 Replace 555 timer with a crystal oscillator for improved accuracy and stability
 Implement synchronous counters to reduce propagation delay
